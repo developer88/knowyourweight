@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.telerik.plugins.healthkit": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        },
+        "org.velardo.cordova-plugin-googlefit": {
+            "PACKAGE_NAME": "com.dsoft88.knowyourweight"
+        }
+    },
+    "dependent_plugins": {}
+}

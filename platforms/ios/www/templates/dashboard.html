@@ -1,0 +1,25 @@
+<ion-view view-title="Dashboard">
+  <ion-content overflow-scroll="true" padding="true" class="has-header has-footer">
+    <!--<div class="list card">
+        <div class="item item-divider">Your progress</div>
+        <div class="item item-body">
+            <div id="howAreYouToday-markdown1" style="color:#000000;">
+                <p>You are doing a great job. Your weight was
+                    <strong>56.0</strong>last week! Keep going!</p>
+            </div>
+        </div>
+    </div>-->
+    <div class="list card">
+        <div class="item item-divider">Your weight</div>
+        <div class="item item-body">
+            <form class="list">
+                <label class="item item-input" name="weight">
+                    <input type="number" name="your_weight" ng-model="your_weight" min="10" max="200">
+                </label>
+                <div>{{your_weight}}</div>
+                <button class="button button-stable  button-block icon-left ion-android-cloud" ng-click="UpdateWeight(your_weight)">Update</button>
+            </form>
+        </div>
+    </div>
+  </ion-content>
+</ion-view>

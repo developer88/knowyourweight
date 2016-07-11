@@ -1,0 +1,50 @@
+<ion-view view-title="Settings">
+    <ion-content overflow-scroll="true" padding="true" class="has-header has-footer">
+        <!--<div class="list card">
+            <div class="item item-divider">Health / Kit</div>
+            <div class="item item-body">
+                <div id="settings-markdown2" style="color:#000000;">
+                    <p>Set up integration with
+                        <strong>Health / Fit</strong>app and see your data in one place.</p>
+                </div>
+                <button id="settings-button2" style="font-weight:;" class="button button-stable  button-block icon-left ion-android-refresh">Connect</button>
+            </div>
+        </div>-->
+        <div class="list card">
+            <div class="item item-divider">Prediction</div>
+            <div class="item item-body">
+                <div id="settings-markdown3" style="color:#000000;">
+                    <p>Make prediction about your weight and display it on main screen.</p>
+                </div>
+                <form class="list">
+                    <ion-toggle toggle-class="toggle-positive" name="make_prediction">Make prediction?</ion-toggle>
+                </form>
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item item-divider">Show notification?</div>
+            <div class="item item-body">
+                <div id="settings-markdown6" style="color:#000000;">
+                    <p>We can notify you about check you weight in regularly.</p>
+                </div>
+                <form class="list">
+                    <ion-toggle toggle-class="toggle-positive" name="show_notifications">Display notification?</ion-toggle>
+                    <ion-item class="range range-positive">Time
+                        <input type="range" value="420" min="0" max="1440" name="time">
+                    </ion-item>
+                </form>
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item item-divider">Display status</div>
+            <div class="item item-body">
+                <div id="settings-markdown4" style="color:#000000;">
+                    <p>Display your progress on main screen. Show your weight from last week to see the difference.</p>
+                </div>
+                <form class="list">
+                    <ion-toggle toggle-class="toggle-positive" name="show_progress">Show progress?</ion-toggle>
+                </form>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
